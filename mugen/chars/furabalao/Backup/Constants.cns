@@ -1,0 +1,195 @@
+ 
+;---------------------- Integer variable list ----------------------
+;var(0):= Hyper Finish Text Selector
+;var(3):= Jump
+;var(4):= Normal Cancel
+;var(5):= Special Cancel
+;var(6):= Super Cancel
+;var(7):= Max Cancel
+;var(8):= Helper Contact Target
+;var(9):= Counter Flag
+;var(10):= Move Var
+;var(11):= Helper Var
+;var(13):= Hit count
+;var(15):= Juggle Points
+;var(16):= Juggle Flag
+;var(17):= Unguardable
+;var(18):= Helper Projcontact
+;var(19):= Throw Escape
+;var(20):= Custom Combo Time
+;var(21):= Super Cancel Flag
+;var(22):= Hyper Cancel Flag
+;var(23):= Super Finish Type
+;var(25):= Ticks to Apply EX FX
+;var(26):= Palette Select
+;var(27):= Palette Selector (on/off)
+;var(29):= Palette Selector Timer
+;var(30):= Hit Detection
+;var(33):= Hit SparkNo
+;var(34):= Guard SparkNo
+;var(35):= Spark X Axis
+;var(36):= Spark Y Axis
+;var(38):= Throws (0 = Allowed/1 = Not Allowed)
+;var(43):= Hit Sparks Selector
+;var(44):= Hit Sounds Selector
+;var(55):= Combo Style Selector
+
+;---------------------- Float variable list ----------------------
+;fvar(5):= Corner Push
+;fvar(8):= Down Juggle Points
+;fvar(9):= Ctrl Flag
+;fvar(10):= Damage Scale (Dampener)
+;fvar(11):= Damage Scale Backup
+;fvar(12):= Enemy In Hit State
+;fvar(13):= Attack Level
+;fvar(17):= Hitspark Helper Var
+;fvar(18):= Hitspark Helper Var
+;---------------------- Sound Channel list ----------------------
+;Channel=0 := Voice
+;Channel=1 := Dust Sound FX's
+;Channel=5 := Movement Sound FX's
+;Channel=22 := Wall Hit Sound FX
+
+;======================================================================================
+;Constants
+;======================================================================================
+[Data]
+life = 1000			
+attack = 100		
+defence = 100		
+fall.defence_up = 50	
+liedown.time = 50		
+airjuggle = 15		
+sparkno = s8010			
+guard.sparkno = s8000	
+KO.echo = 0			
+volumescale = 100			
+IntPersistIndex = 0	
+FloatPersistIndex = 0 
+
+[Size]
+xscale=  .8
+yscale = 0.71
+ground.back = 17
+ground.front = 17
+air.back = 17
+air.front = 17
+height = 60
+attack.dist = 160
+proj.attack.dist = 90
+proj.doscale = 0
+head.pos = -1, -103
+mid.pos = 0, -64
+shadowoffset = 0
+draw.offset = 0, 0
+
+[Velocity]
+walk.fwd = 2.6
+walk.back = -2.31
+run.fwd  = 5.5, 0    ;Run forward (x, y)
+run.back = -5,-4.5 ;Hop backward (x, y)
+jump.neu = 0, -9.609375
+jump.fwd = 2.9625
+jump.back = -3.575
+runjump.fwd = 4.444, -10.99
+runjump.back = -5.363, -10.99
+airjump.neu = 0,-9.1     
+airjump.back = -2.55      
+airjump.fwd = 2.5         
+
+[Movement]
+airJump.num = 0
+airJump.height = 0
+yaccel = 0.46875
+stand.friction = 0.85
+crouch.friction = 0.82
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundLevel = 25
+air.gethit.groundRecover.ground.threshold = -20
+air.gethit.groundRecover.groundLevel = 10
+air.gethit.airRecover.threshold = -1
+air.gethit.airRecover.yAccel = 0.35
+air.gethit.trip.groundLevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yAccel = 0.4
+down.bounce.groundLevel = 12
+down.friction.threshold = 0.5
+
+[Quotes]
+victory0 = "Thanks for the fight! You made a swell punching bag..."
+victory1 = "You did quite well for a corpse my friend. Rest in peace..."
+victory2 = "Next time ya wanna get rocked and socked, give me a holler!"
+victory3 = "Yep! Still number 1!"
+victory4 = "Spread the word chump... Mickey The Mauler's BACK!!"
+victory5 = "If I keep this up, that title's mine for sure!"
+victory6 = "Burning upper's too much for ya huh...? Better watch my huricane hook chump...!"
+victory7 = "Hey! If ya see Axel, tell him I'm looking for him..."
+victory8 = "I gotta mean wind up, But it's my Rising Upper you should be afraid of...!"
+victory9 = "That's right baby...! Still the champ...!"
+victory10 = "I know your face is busted and all, but what did you expect...!?"
+victory11 = "Really...???"
+victory12 = "What...? That's it? You can't be serious...!"
+
+victory13 = "I guess I'm THAT good! Everybody wants to be me...! Be original clone boy...!"
+;Vs. Mickey Rogers/Micky13
+
+victory14 = "Chill Ryo... Guess you couldn't avoid my combos after all... No hard feelings right...?"
+;Vs. Ryo/Ryo Sakazaki
+
+victory15 = "Good hustle Rob, but you're down for the count... Think of this as a gift...! A learning experience!"
+;Vs. Robert/Robert Garcia/cvsrobert
+
+victory16 = "Damn Yuri! Still looking good I see... Rob better not slip up...!"
+;Vs. Yuri/Yuri Sakazaki
+
+victory17 = "Ding ding Takuma...! It's a young man's game... And you ain't what you used to be..."
+;Vs. Takuma/Takuma Sakazaki
+
+victory18 = "Take off that monkey suit...! Breathe a little...! Show a little skin baby...!"
+;Vs. King
+
+victory19 = "So what do you think of my rolling upper...? Scary huh...?"
+;Vs. Temjin
+
+victory20 = "Still got it out for the Sakazaki's eh muzzle mouth...? Well, at least I didn't tarnished your losing streak..."
+;Vs. Eiji
+
+victory21 = "How's it feel to be America's let down...? Should've expected as much from a washed up fly boy..."
+;Vs. John/John Crawley
+
+victory22 = "Still a walking punching bag eh Jack...? Better speed up chump. Because to me, you move in slow motion..."
+;Vs. Jack/Jack13/Jack Turner
+
+victory23 = "Not this time Mr. Lee...! You're fast, but I'm faster...! Like my new rapid jab...?"
+;Vs. Lee_nbc
+
+victory24 = "Still playing with twigs huh Big...? You got the limo's, you got the girls. I don't get it...!"
+;Vs. ccimrbig/Mr. Big
+
+victory25 = "Hey Duck face, Goose face, or whatever your name is... Ding ding!! You got knocked the fuck out!!"
+;Vs. Geese/Geese Howard
+
+victory26 = "Sloppy technique, slow, and wreckless... Those wild hey makers are what keeps you in the losers bracket..."
+;Vs. Balrog/Chaos Balrog
+
+victory27 = "Vanessa right...? Woah! You actually had me worried for a second! And cute too!"
+;Vs. Vanessa/vanessa_XI
+
+victory28 = "I'll admit, your form is pretty nice my friend, but I'm a beast... And you just got mauled...!"
+;Vs. D/Heavy D
+
+victory29 = "I'm actually disappointed...! And Axel trains you!!? Sure hope he's worth my time..."
+;Vs. Micheal_Max/Micheal Max
+
+victory30 = "Chill out Rick! You're wild and fast, but THIS was a TKO...!"
+;Vs. Rick/Rick Stroud
+
+victory31 = "Mann! What an annoying accent...! And battling's not for gentlemen my friend... Care for another round...?"
+;Vs. Dudley/dudley_mx/DudleyStreets
+
+victory32 = "Trying to pen me into a corner huh...? Sorry, but that trick ain't worked in years...! Lights out chump...!"
+;Burai Yamamoto
+
+victory33 = "Whoo! Been lookin for you all day...! Guess I'll be takin that belt now chump...! YEAH!!"
+;Vs. Axel Hawk
