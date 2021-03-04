@@ -1,0 +1,34 @@
+;===========================================================================
+;Marvel vs. Capcom - Eternity of Heroes - Animations Template V.8
+;by Acey, FX ripped by Kong, Based on MvC2 Guile by RedHot, updated by Scar
+;===========================================================================
+
+[Info]
+name="Pedreiro"
+displayname="Pedreiro"
+versiondate=8/5/2015
+mugenversion=1.0
+author=" "
+pal.defaults=1,2,3,4,5,6
+localcoord=410
+[Files]
+cmd=RHINO_EOH.cmd
+cns=RHINO_EOH.cns
+stcommon=RHINO_EOH1.cns
+st=RHINO_EOH.cns
+sprite=RHINO_EOH.sff
+anim=RHINO_EOH.air
+sound=RHINO_EOH.snd
+pal1=RHINO_EOH02.act
+pal2=RHINO_EOH05.act
+pal3=RHINO_EOH03.act
+pal4=RHINO_EOH04.act
+pal5=RHINO_EOH01.act
+pal6=RHINO_EOH06.act
+pal7=2.act
+pal8=3.act
+pal9=4.act
+
+[Arcade]
+intro.storyboard=
+ending.storyboard=
