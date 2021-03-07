@@ -1,0 +1,41 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Kcuete"
+displayname = "Kcuete"
+versiondate = 
+mugenversion = 29,11,2000
+author = "wou"
+pal.defaults = 1,2,3,4,5
+localcoord   = 400, 240
+
+[Files]
+sprite = Leon.sff
+anim = Leon.air
+sound = Leon.snd
+cmd = Leon.cmd
+cns = CNS's\Leon.cns
+stcommon = common1.cns
+st = CNS's\Leon.cns
+st1 = CNS's\Misc.cns
+st2 = CNS's\Overrides.cns
+st3 = conf.txt
+pal1 = Paletas\Leon.act
+pal2 = Paletas\Leon2.act
+pal3 = Paletas\Leon3.act
+pal4 = Paletas\Leon4.act
+pal5 = Paletas\Leon5.act
+pal6 = Paletas\Leon6.act
+pal7 = Paletas\Leon7.act
+pal8 = Paletas\Leon8.act
+pal9 = Paletas\Leon9.act
+pal10 = Paletas\Leon10.act
+pal11 = Paletas\Leon11.act
+pal12 = Paletas\Leon12.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

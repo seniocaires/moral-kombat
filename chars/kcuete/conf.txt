@@ -1,0 +1,86 @@
+;---------------------------------------------------------------------------
+[Statedef 5900]
+type = S
+
+; Configurations
+[State 5900, Configurations]
+type = null;VarSet
+trigger1 = (var(15) := 0)||e ; "Sparks": 1 = KOF 2002 / 0 = KOF XI
+trigger1 = (var(16) := 0) ; "Sound": 1 = KOF 2002 / 0 = KOF XI
+persistent = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;----------------------------------------------------------
+; DON'T CHANGE ANYTHING BELOW
+;----------------------------------------------------------
+; Initialize (at the start of the round)
+
+[State 5900, AI]
+type = VarSet
+trigger1 = !RoundsExisted
+var(58) = 0
+[State 5900, AI]
+type = VarSet
+trigger1 = !RoundsExisted
+var(35) = 0
+[State 5900, AI]
+type = VarSet
+trigger1 = !RoundsExisted
+var(37) = 0
+
+[State 5900, 3] ;Intro
+type = ChangeState
+trigger1 = roundno = 1
+value = 190
