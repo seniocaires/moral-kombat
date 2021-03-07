@@ -72,6 +72,7 @@
 
 furabalao, stage/Abandoned Soccer Stadium.def
 pedreiro, stages/praiadasaudade.def
+alemao, stages/Superjail_Prison_Riot.def
 
 ;-----------------------
 [ExtraStages]
@@ -79,6 +80,7 @@ pedreiro, stages/praiadasaudade.def
  ;For example, you can insert "stages/mybg.def".
 stages/Abandoned Soccer Stadium.def
 stages/praiadasaudade.def
+stages/Superjail_Prison_Riot.def
 
 ;---------------------------------------------------------------------
 [Options]
