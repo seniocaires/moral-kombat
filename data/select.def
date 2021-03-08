@@ -74,6 +74,7 @@ furabalao, stage/Abandoned Soccer Stadium.def
 pedreiro, stages/praiadasaudade.def
 alemao, stages/Superjail_Prison_Riot.def
 kcuete, stages/SHOUSE.DEF
+sabieta, stages/maxe_coolersbar_roadhouse.def
 
 ;-----------------------
 [ExtraStages]
@@ -83,6 +84,7 @@ stages/Abandoned Soccer Stadium.def
 stages/praiadasaudade.def
 stages/Superjail_Prison_Riot.def
 stages/SHOUSE.DEF
+stages/maxe_coolersbar_roadhouse.def
 
 ;---------------------------------------------------------------------
 [Options]

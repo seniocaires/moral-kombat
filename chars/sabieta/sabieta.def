@@ -1,0 +1,34 @@
+; Definition file for Drunken Master
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name ="Sabieta 2050"
+displayname ="Sabieta 2050"
+versiondate =01,22,2010
+mugenversion =1.0
+author ="Skiff"
+pal.defaults =4,5,6,1,2,3
+localcoord   = 400, 240
+
+; Files for the player
+[Files]
+cmd     =command.cmd
+cns     =constant.cns
+st      =constant.cns
+stcommon =common1.cns
+sprite  =sprite.sff
+anim    =animation.air
+sound   =sound.snd
+pal1=drunk1.act
+pal2=drunk2.act
+pal3=drunk3.act
+pal4=drunk4.act
+pal5=drunk5.act
+pal6=drunk6.act
+st1=override.cns
+
+
+[Arcade]
+intro.storyboard=
+ending.storyboard=
