@@ -1,0 +1,25 @@
+[Info]
+name="Orea"
+displayname="Orea"
+versiondate=5/11/2009
+mugenversion=04,14,2001
+author="SSkye"
+pal.defaults=1,2,3,4,5
+localcoord   = 400, 240
+[Files]
+sprite=AVGN.sff
+sound=AVGN.snd
+anim=AVGN.air
+cmd= AI-AVGN.cmd
+cns=AVGN.cns
+st=AVGN_S.st
+stcommon= AI-common1.cns
+pal1=Palettes/AVGN1.act
+pal2=Palettes/AVGN2.act
+st1=AVGN_C.st
+st2=AVGN_A.st
+st3 = aihelper2.cns
+st4 = aisummary.txt
+[Arcade]
+intro.storyboard=
+ending.storyboard=
