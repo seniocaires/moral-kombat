@@ -76,6 +76,7 @@ alemao, stages/Superjail_Prison_Riot.def
 kcuete, stages/SHOUSE.DEF
 sabieta, stages/maxe_coolersbar_roadhouse.def
 orea, stages/kof-97ol-SNK-Office_stage.def
+fatboy, stages/Backstreets.def
 
 ;-----------------------
 [ExtraStages]
@@ -87,6 +88,7 @@ stages/Superjail_Prison_Riot.def
 stages/SHOUSE.DEF
 stages/maxe_coolersbar_roadhouse.def
 stages/kof-97ol-SNK-Office_stage.def
+stages/Backstreets.def
 
 ;---------------------------------------------------------------------
 [Options]
