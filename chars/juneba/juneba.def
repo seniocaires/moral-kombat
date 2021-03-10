@@ -1,0 +1,74 @@
+; original stryker by MKP Team
+; MK3 arcade sprites ripped by Fly
+; MK3 sound rips by Le@N
+; new sound effect rips by Orn'Cayosin
+; smoke and explosion effects by PhoboSS
+; harakiri by MKP team
+; some new sprites by xTH@Wk
+; voice rips, weapon edits, color separation, compiled & updated by borg117
+
+; updated by Emsi-D Velaskez (new special/finishing moves and some new sprites)
+; re-added base easy fatality commands by MKA
+; New Update Add New Move By JafarSSMob
+
+; converted to regular MUGEN by RoneryRobot
+;-------------------------------------------
+[Info]
+;-------------------------------------------
+
+name         = "Juneba"
+displayname  = "Juneba"
+versiondate  = 13,07,2020;26,08,2018
+mugenversion = 1.0
+pal.defaults = 1,2
+localcoord = 400,254
+
+;-------------------------------------------
+
+[Files]
+cmd      = 1.cmd
+cns      = 1.cns
+st       = 1.cns
+st2      = sp.st
+st3      = bmoves.st
+st4      = Finishers.st
+st5      = kombos.st
+st6      = brutality.st
+stcommon = common1.cns
+sprite   = 1.sff
+anim     = stryker.air
+sound    = 1.snd
+;pal1     = starter.act
+pal1     = stryker_default.act
+pal2     = stryker_orange.act
+pal3     = stryker_white.act
+pal4     = stryker_green.act
+pal5     = stryker_deepred.act
+pal6     = stryker_black.act
+pal7     = stryker_deepblue_A.act
+pal8     = stryker_fire_A.act
+pal9     = stryker_gray_A.act
+pal10    = stryker_yellow_A.act
+pal11    = stryker_purple_A.act
+pal12    = stryker_black_A.act
+
+[Palette Keymap]
+a = 1
+b = 6
+c = 2
+x = 4
+y = 3
+z = 5
+a2 = 7
+b2 = 12
+c2 = 8
+x2 = 10
+y2 = 9
+z2 = 11
+
+;-------------------------------------------
+[Arcade]
+;-------------------------------------------
+
+intro.storyboard  = intro.def
+ending.storyboard = ending.def

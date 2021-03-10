@@ -78,6 +78,7 @@ sabieta, stages/maxe_coolersbar_roadhouse.def
 orea, stages/kof-97ol-SNK-Office_stage.def
 fatboy, stages/Backstreets.def
 gugu, stages/playgrnd.def
+juneba, stages/Raccooncity.def
 
 ;-----------------------
 [ExtraStages]
@@ -91,6 +92,7 @@ stages/maxe_coolersbar_roadhouse.def
 stages/kof-97ol-SNK-Office_stage.def
 stages/Backstreets.def
 stages/playgrnd.def
+stages/Raccooncity.def
 
 ;---------------------------------------------------------------------
 [Options]

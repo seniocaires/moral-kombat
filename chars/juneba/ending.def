@@ -1,0 +1,39 @@
+;ending by Hanzo Hasashi
+;fixed index and positioning by MKA
+
+[SceneDef]
+spr = ending.sff       ;Filename of sprite file to use
+
+[Scene 0]
+;fadein.time = 40
+;fadeout.time = 100
+clearcolor = 0, 0, 0   
+; Overlay Anims (from 0 to 9)
+layerall.pos = 0,0 ;Default position for all layers
+layer0.anim =  0      ;Anim action number for slideshow pictures
+layer0.starttime = 0
+; Total time
+bgm = ../../sound/soulchamber.mp3
+end.time = 2220      ;600 ticks = 10 seconds
+
+;Animation to use for pictures
+[Begin Action 0]
+0,91,0,0,1110
+0,92,0,0,-1
+
+[Scene 1]
+;fadein.time = 40
+;fadeout.time = 100
+clearcolor = 0, 0, 0   
+; Overlay Anims (from 0 to 9)
+layerall.pos = 1,0 ;Default position for all layers
+layer0.anim =  1      ;Anim action number for slideshow pictures
+layer0.starttime = 0
+; Total time
+bgm = ../../data/mkp/intro/storyboard1.mp3
+end.time = 2220; 4000      ;600 ticks = 10 seconds
+
+[Begin Action 1]
+Loopstart
+1,0,0,0,4
+1,1,0,0,4
