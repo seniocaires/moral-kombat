@@ -77,6 +77,7 @@ kcuete, stages/SHOUSE.DEF
 sabieta, stages/maxe_coolersbar_roadhouse.def
 orea, stages/kof-97ol-SNK-Office_stage.def
 fatboy, stages/Backstreets.def
+gugu, stages/playgrnd.def
 
 ;-----------------------
 [ExtraStages]
@@ -89,6 +90,7 @@ stages/SHOUSE.DEF
 stages/maxe_coolersbar_roadhouse.def
 stages/kof-97ol-SNK-Office_stage.def
 stages/Backstreets.def
+stages/playgrnd.def
 
 ;---------------------------------------------------------------------
 [Options]

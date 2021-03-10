@@ -1,0 +1,123 @@
+; _______________________________________
+;|Pocket Guy                             |
+;|Character Made by: Duende Macabro  ::..|
+;|Version: Beta 1 - 05/09/05 ::..        |
+;|Started at 16/07/2005 ::..             |
+;|Contact:                               |
+;|weaponx_nirvana@yahoo.com.br           |
+;|_______________________________________|
+
+*Obs: char criado apenas para WinMUGEN ;)
+
+=====================================================================
+:: 1. Atualizações ::
+=====================================================================
+
+- :: 05/09/2005 :: Versão beta 0.4 ( uns 40% ) 
+- Todo os sprites requeridos;
+- Sparks randômicos e guardspark;
+- Vozes do Guy da série SFA;
+- 1 Intro;
+- 1 winpose;
+- 6 paletas;
+- 4 specials;
+- 1 super.
+
+- :: O que falta para a próxima versão ::
+* Arrumar os bugs;
+* Mais golpes originais;
+* Mais sons;
+* Mais armas do final fight;
+* Arrumar uma big portrait decente ¬¬;
+* Interação com meus outros pockets, quem sabe até um team super \o\;
+* Sei lá, o que mais a minha cabeça imaginar XD.
+
+
+=====================================================================
+:: 2. Golpes Comuns ::
+=====================================================================
+
+Soco :	a
+Chute:	b
+
+
+=====================================================================
+:: 3. Miscelaneous ::
+=====================================================================
+
+provocação             :     Start
+Corrida                :     FF
+Pulinho pra trás       :     BB
+Chute durante a corrida:     a ou b durante a corrida 
+
+
+=====================================================================
+:: 4. Golpes Specials ::
+=====================================================================
+
+D, DF, F, a = arremesso de faca
+- Guy arremessa uma faca ( aff ¬¬ ) sei lah, basicamente eh isso;
+
+
+D, DF, F, b = porrada de cano
+- Guy desfere uma porrada usando um cano de ferro ( omg! ¬¬ );
+
+
+D, DB, B, a = sequência de socos
+- Guy prende o oponente em uma sequência devastadora de socos \o/;
+
+
+D, DB, B, b = chute giratório
+- O especial clássico do Guy desde o primeiro Final Fight :) ;
+- Consiste numa giratória semelhante ao Tatsumaki dos shotokans, só que para cima.
+
+
+=====================================================================
+:: 5. Golpes Supers ::
+=====================================================================
+
+D, DF, F, D, DF, F, a = espancamento
+- É a porradaria comendo frouxo \o/ Guy simplesmente enche o oponente de porrada XD;
+- Gasta 1 barra de power.
+
+
+=====================================================================
+:: 6.  Golpes Hypers ::
+=====================================================================
+
+Nenhum ainda ^_^
+
+
+=====================================================================
+:: 7.  Autorizações ::
+=====================================================================
+
+- Cavaleiro Negro => liberou tudo o que foi feito por ele de suas criações;
+
+- GGN => liberou tudo de seu char Guile GGN;
+
+- Phantom.of.the.server => liberou tudo de suas criações;
+
+- O Ilusionista => liberou tudo de seu char Pocket O Ilusionista;
+
+
+=====================================================================
+:: 8.  Autorizações ::
+=====================================================================
+
+- A Elecbite, pelo MUGEN e demais ferramentas;
+
+- Ao Sés, pelo MCM;
+
+- A Capcom, por toda a série Final Fight;
+
+- Cavaleiro Negro, já me tirou várias dúvidas quanto à programação, além de ser 
+                   um grande amigo =D
+                   Também fez um tuto de blur com 30 cores que me ajudou \o\;
+
+- Grim e Bonzai ( http://sdb.neuropod.net ) pelos rips diversos;
+
+- A você, por ter pego esse char;
+
+- A quem eu esqueci de citar, minhas sinceras desculpas ^_^
+
